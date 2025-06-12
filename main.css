@@ -1,3 +1,52 @@
-p {
-    color: aquamarine;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: hsl(0, 8%, 15%);
+    top: 100px;
+}
+
+.main {
+    background-color: hsl(0, 0%, 12%);
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px;
+      width: 320px;
+      height: auto;
+      margin-top: 100px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.links {
+    background-color: hsl(0, 0%, 20%);
+      border-radius: 10px;
+      padding: 15px;
+      margin: 15px;
+      color: hsl(0, 0%, 8%);
+      transition: background-color 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 8%);
+      font-weight: 500;
+}
+
+#develop {
+    color: hsl(0, 0%, 51%)
+}
+
+#xleb {
+    color: hsl(0, 0%, 100%);
 }

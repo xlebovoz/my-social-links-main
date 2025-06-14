@@ -3,8 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: hsl(0, 8%, 15%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     top: 100px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .main {
@@ -25,22 +26,22 @@ img {
 }
 
 .links {
-    background-color: hsl(0, 0%, 20%);
-      border-radius: 10px;
-      padding: 15px;
-      margin: 15px;
-      color: hsl(0, 0%, 8%);
-      transition: background-color 0.3s;
+    background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    color: hsl(0, 0%, 8%);
+    transition: background-image 0.9s ease;
+}
+
+.links:hover {
+    background-image: linear-gradient(to right, #5b5b5b 0%, rgb(53, 53, 53) 100%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 500;
 }
 
 a {
     text-decoration: none;
-}
-
-.links:hover {
-      background-color: hsl(75, 94%, 57%);
-      color: hsl(0, 0%, 8%);
-      font-weight: 500;
 }
 
 #develop {

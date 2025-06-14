@@ -7,18 +7,16 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-/* Основной контейнер */
 .main {
     background-color: hsl(0, 0%, 12%);
-    text-align: center;
-    padding: 20px;
-    border-radius: 20px;
-    width: 320px;
-    height: auto;
-    margin-top: 100px;
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px;
+      width: 320px;
+      height: auto;
+      margin-top: 100px;
 }
 
-/* Изображение */
 img {
     width: 80px;
     height: 80px;
@@ -26,7 +24,6 @@ img {
     margin-top: 20px;
 }
 
-/* Ссылки */
 .links {
     background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
     border-radius: 10px;
@@ -47,51 +44,9 @@ a {
 }
 
 #develop {
-    color: hsl(0, 0%, 51%);
+    color: hsl(0, 0%, 51%)
 }
 
 #xleb {
     color: hsl(0, 0%, 100%);
-}
-
-/* Медиазапрос для мобильных устройств */
-@media (max-width: 480px) {
-    body {
-        align-items: flex-start; /* Выравнивание по верху вместо центра */
-        padding-top: 20px; /* Немного отступа сверху */
-        justify-content: flex-start; /* Выровнять по левому краю или оставить центр по желанию */
-        background-image: linear-gradient(to bottom, #434343, black); /* Можно изменить фон для мобильных */
-        height:auto; /* Обеспечить авто-высоту */
-        display:flex; /* Для центрирования или выравнивания */
-        flex-direction: column; /* Вертикальное расположение элементов */
-        align-items:center; /* Центрировать содержимое по горизонтали */
-        margin-top:auto; /* Убрать фиксированный отступ сверху */
-        min-height:auto; /* Обеспечить минимальную высоту */
-        padding-left:10px; /* Немного внутреннего отступа слева */
-        padding-right:10px; /* Немного внутреннего отступа справа */
-    }
-
-    .main {
-        width:auto; /* Сделать ширину адаптивной */
-        margin-top:auto; /* Убрать фиксированный верхний отступ */
-        padding-bottom:20px; /* Отступ снизу для мобильных устройств */
-        border-radius:none; /* Можно убрать радиус или оставить по желанию */
-        box-shadow:none; /* Убрать тень если есть */
-        max-width:90%; /* Ограничить ширину контейнера на мобильных устройствах */
-    }
-
-    img {
-        width:60px; /* Сделать изображение чуть меньше на мобильных устройствах */
-        height:auto; 
-        margin-top:10px;
-    }
-
-    .links {
-        padding:10px;
-        margin:auto; 
-        font-size:14px; /* Сделать шрифт чуть меньше для мобильных устройств */
-        width:auto; 
-        display:inline-block; 
-        min-width:max-content; 
-     }
 }

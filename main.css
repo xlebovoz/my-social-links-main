@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-color: black;
     font-family: 'Nunito', sans-serif;
 }
 

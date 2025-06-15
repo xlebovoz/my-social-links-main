@@ -11,13 +11,12 @@ a {
 }
 
     body {
-      background-color: hsl(0, 0%, 8%);
-      font-family: 'Figtree', sans-serif;
       display: flex;
       justify-content: center; /* по горизонтали */
       align-items: center;     /* по вертикали */
       margin: 0; /* убираем отступы по умолчанию */
-      /* font-family: 'Nunito', sans-serif; */
+      font-family: 'Nunito', sans-serif;
+      background-image: linear-gradient(to right, #434343 0%, black 100%);
     }
 
     img {
@@ -38,16 +37,17 @@ a {
     }
 
     .links {
-      background-color: hsl(0, 0%, 20%);
+      background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
       border-radius: 10px;
       padding: 15px;
       margin: 15px;
-      color: hsl(0, 0%, 100%);
-      transition: background-color 0.3s;
+      color: hsl(0, 0%, 8%);
+      font-weight: 500;
+      transition: background-image 0.9s ease;
     }
 
     .links:hover {
-      background-color: hsl(75, 94%, 57%);
+      background-image: linear-gradient(to right, #5b5b5b 0%, rgb(53, 53, 53) 100%);
       color: hsl(0, 0%, 8%);
-      font-weight: 500;
+      font-weight: 700;
     }

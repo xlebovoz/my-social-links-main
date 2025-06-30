@@ -16,6 +16,7 @@ a {
       align-items: center;     /* по вертикали */
       margin: 0; /* убираем отступы по умолчанию */
       font-family: 'Nunito', sans-serif;
+      top: 100vh;
       background-image: linear-gradient(to right, #434343 0%, black 100%);
     }
 

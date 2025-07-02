@@ -9,14 +9,14 @@ a {
 #xleb {
     color: hsl(0, 0%, 100%);
 }
-
+    
     body {
+      height: 100vh; /* чтобы занимать всю высоту окна */
       display: flex;
-      justify-content: center; /* по горизонтали */
-      align-items: center;     /* по вертикали */
-      margin: 0; /* убираем отступы по умолчанию */
+      justify-content: center;
+      align-items: center;
+      margin: 0;
       font-family: 'Nunito', sans-serif;
-      top: 50vh;
       background-image: linear-gradient(to right, #434343 0%, black 100%);
     }
 
@@ -26,15 +26,13 @@ a {
       border-radius: 100%;
       margin-top: 20px;
     }
-
+ц
     .main {
       background-color: hsl(0, 0%, 12%);
       text-align: center;
       padding: 20px;
       border-radius: 20px;
       width: 320px;
-      height: auto;
-      margin-top: 100px;
     }
 
     .links {

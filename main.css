@@ -34,6 +34,16 @@ a {
       border-radius: 20px;
       width: 320px;
     }
+    
+    @media (max-width: 480px) {
+      .main {
+        width: 90%;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    
+      /* Можно также уменьшить размер шрифта или изображений, если нужно */
+    }
 
     .links {
       background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);

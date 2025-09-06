@@ -1,53 +1,60 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #develop {
-    color: hsl(0, 0%, 51%)
+  color: hsl(0, 0%, 51%)
 }
 
 #xleb {
-    color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }
 
-    body {
-      display: flex;
-      justify-content: center; /* по горизонтали */
-      align-items: center;     /* по вертикали */
-      margin: 0; /* убираем отступы по умолчанию */
-      font-family: 'Nunito', sans-serif;
-      background-image: linear-gradient(to right, #434343 0%, black 100%);
-    }
+body {
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали */
+  margin: 0; /* убираем отступы по умолчанию */
+  font-family: 'Nunito', sans-serif;
+  
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+img {
+  width: 80px;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+.main {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  width: 320px;
+  height: auto;
+  margin-top: 100px;
+}
+.links {
+  background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  color: hsl(0, 0%, 8%);
+  font-weight: 500;
+  transition: background-image 0.9s ease;
+}.links:hover {
+  background-image: linear-gradient(to right, #5b5b5b 0%, rgb(53, 53, 53) 100%);
+  color: hsl(0, 0%, 8%);
+  font-weight: 700;
+}
 
-    img {
-      width: 80px;
-      height: auto;
-      border-radius: 100%;
-      margin-top: 20px;
-    }
-
-    .main {
-      background-color: hsl(0, 0%, 12%);
-      text-align: center;
-      padding: 20px;
-      border-radius: 20px;
-      width: 320px;
-      height: auto;
-      margin-top: 100px;
-    }
-
-    .links {
-      background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
-      border-radius: 10px;
-      padding: 15px;
-      margin: 15px;
-      color: hsl(0, 0%, 8%);
-      font-weight: 500;
-      transition: background-image 0.9s ease;
-    }
-
-    .links:hover {
-      background-image: linear-gradient(to right, #5b5b5b 0%, rgb(53, 53, 53) 100%);
-      color: hsl(0, 0%, 8%);
-      font-weight: 700;
-    }
+#theme {
+  width: 40px;
+  height: auto;
+  position: fixed;
+  margin-top: 10px;
+  margin-right: 10px;
+  top: 0;         
+  right: 0;       
+  z-index: 1000;  
+}

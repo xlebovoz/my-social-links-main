@@ -9,7 +9,6 @@ a {
 #xleb {
   color: hsl(0, 0%, 100%);
 }
-<<<<<<< HEAD
 
 body {
   display: flex;
@@ -59,56 +58,3 @@ img {
   right: 0;       
   z-index: 1000;  
 }
-=======
-    
-    body {
-      height: 100vh; /* чтобы занимать всю высоту окна */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 0;
-      font-family: 'Nunito', sans-serif;
-      background-image: linear-gradient(to right, #434343 0%, black 100%);
-    }
-
-    img {
-      width: 80px;
-      height: auto;
-      border-radius: 100%;
-      margin-top: 20px;
-    }
-
-    .main {
-      background-color: hsl(0, 0%, 12%);
-      text-align: center;
-      padding: 20px;
-      border-radius: 20px;
-      width: 320px;
-    }
-    
-    @media (max-width: 480px) {
-      .main {
-        width: 90%;
-        padding: 10px;
-        border-radius: 10px;
-      }
-    
-      /* Можно также уменьшить размер шрифта или изображений, если нужно */
-    }
-
-    .links {
-      background-image: linear-gradient(to right, #494949 0%, rgb(44, 44, 44) 100%);
-      border-radius: 10px;
-      padding: 15px;
-      margin: 15px;
-      color: hsl(0, 0%, 8%);
-      font-weight: 500;
-      transition: background-image 0.9s ease;
-    }
-
-    .links:hover {
-      background-image: linear-gradient(to right, #5b5b5b 0%, rgb(53, 53, 53) 100%);
-      color: hsl(0, 0%, 8%);
-      font-weight: 700;
-    }
->>>>>>> 1d0e0c8290fa031a63ca88986a35ad704230d23d

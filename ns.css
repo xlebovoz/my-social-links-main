@@ -1,3 +1,62 @@
 body {
-    
+    display: flex;
+    flex-direction: column; /* добавьте сюда */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #211f1e, #302e2f, #393b3b, #5a5a5a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+body > div:first-child {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#title {
+    font-size: 60px;
+    background: linear-gradient(90deg, rgba(29, 29, 29, 0.7), rgba(0, 0, 0, 0.7));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+
+body > div:last-child {
+    padding: 20px;
+    text-align: center;
+}
+
+#link {
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+#link:hover {
+  color: #212121;
 }
